@@ -70,7 +70,7 @@ var server = app.listen(app.get('port'), function() {
 	var connection = mysql.createConnection(globals.database());
 	connection.connect(function(err) {
 		if (err) {
-			console.log('error connecting to database: ');
+			console.log('error connecting to database:');
 			console.log(globals.database());
 			console.log(err);
 		} else {
