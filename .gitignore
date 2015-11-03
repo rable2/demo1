@@ -1,0 +1,5 @@
+/.pmd
+/.project
+/.settings
+/npm-debug.log
+/config/local.js
